@@ -1,0 +1,6 @@
+cd frontend
+docker build . -t frontend:1.14
+cd ../backend
+docker build . -t backend:1.14
+docker run -d -p 5000:5000 frontend
+docker run -d -p 8080:8080 backend

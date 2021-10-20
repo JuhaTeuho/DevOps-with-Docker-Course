@@ -1,0 +1,57 @@
+Script started on 2021-10-12 18:04:56+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="23"]
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker b[Kpull devopsdockeruh/simple-web-service:ubuntu
+ubuntu: Pulling from devopsdockeruh/simple-web-service
+
+[1A[2K5d3b2c2d21bb: Pulling fs layer [1B
+[1A[2K3fc2062ea667: Pulling fs layer [1B
+[1A[2K75adf526d75b: Pulling fs layer [1B
+[1A[2K965d4bbb586a: Pulling fs layer [1B
+[1A[2K4f4fb700ef54: Pulling fs layer [1B[2A[2K965d4bbb586a: Waiting [2B[1A[2K4f4fb700ef54: Waiting [1B[3A[2K75adf526d75b: Downloading     162B/162B[3B[3A[2K75adf526d75b: Verifying Checksum [3B[3A[2K75adf526d75b: Download complete [3B[5A[2K5d3b2c2d21bb: Downloading  298.2kB/28.57MB[5B[4A[2K3fc2062ea667: Downloading     659B/850B[4B[4A[2K3fc2062ea667: Downloading     850B/850B[4B[4A[2K3fc2062ea667: Verifying Checksum [4B[4A[2K3fc2062ea667: Download complete [4B[5A[2K5d3b2c2d21bb: Downloading  1.465MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  2.632MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  3.804MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading   5.27MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  6.445MB/28.57MB[5B[2A[2K965d4bbb586a: Downloading  52.44kB/5.117MB[2B[1A[2K4f4fb700ef54: Downloading      32B/32B[1B[1A[2K4f4fb700ef54: Verifying Checksum [1B[1A[2K4f4fb700ef54: Download complete [1B[2A[2K965d4bbb586a: Downloading  789.7kB/5.117MB[2B[5A[2K5d3b2c2d21bb: Downloading  7.035MB/28.57MB[5B[2A[2K965d4bbb586a: Downloading  1.694MB/5.117MB[2B[5A[2K5d3b2c2d21bb: Downloading  7.617MB/28.57MB[5B[2A[2K965d4bbb586a: Downloading  2.546MB/5.117MB[2B[2A[2K965d4bbb586a: Downloading  3.455MB/5.117MB[2B[5A[2K5d3b2c2d21bb: Downloading  8.203MB/28.57MB[5B[2A[2K965d4bbb586a: Downloading  4.373MB/5.117MB[2B[5A[2K5d3b2c2d21bb: Downloading  8.493MB/28.57MB[5B[2A[2K965d4bbb586a: Verifying Checksum [2B[2A[2K965d4bbb586a: Download complete [2B[5A[2K5d3b2c2d21bb: Downloading  9.083MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading   9.96MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  11.14MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  12.32MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  13.79MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  15.26MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  16.43MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  17.89MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  19.07MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  20.26MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  21.72MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  22.61MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  23.78MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  24.97MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  26.14MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  27.31MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading  28.49MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Verifying Checksum [5B[5A[2K5d3b2c2d21bb: Download complete [5B[5A[2K5d3b2c2d21bb: Extracting  294.9kB/28.57MB[5B[5A[2K5d3b2c2d21bb: Extracting  9.437MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Extracting  19.17MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Extracting  25.95MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Extracting  28.57MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Pull complete [5B[4A[2K3fc2062ea667: Extracting     850B/850B[4B[4A[2K3fc2062ea667: Extracting     850B/850B[4B[4A[2K3fc2062ea667: Pull complete [4B[3A[2K75adf526d75b: Extracting     162B/162B[3B[3A[2K75adf526d75b: Extracting     162B/162B[3B[3A[2K75adf526d75b: Pull complete [3B[2A[2K965d4bbb586a: Extracting  65.54kB/5.117MB[2B[2A[2K965d4bbb586a: Extracting   2.49MB/5.117MB[2B[2A[2K965d4bbb586a: Extracting  5.117MB/5.117MB[2B[2A[2K965d4bbb586a: Pull complete [2B[1A[2K4f4fb700ef54: Extracting      32B/32B[1B[1A[2K4f4fb700ef54: Extracting      32B/32B[1B[1A[2K4f4fb700ef54: Pull complete [1BDigest: sha256:d44e1dce398732e18c7c2bad9416a072f719af33498302b02929d4c112e88d2a
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:ubuntu
+docker.io/devopsdockeruh/simple-web-service:ubuntu
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker pull devopsdockeruh/simple-web-service:alpine
+alpine: Pulling from devopsdockeruh/simple-web-service
+
+[1A[2Kba3557a56b15: Pulling fs layer [1B
+[1A[2K1dace236434b: Pulling fs layer [1B
+[1A[2K4f4fb700ef54: Pulling fs layer [1B[2A[2K1dace236434b: Downloading  52.47kB/5.117MB[2B[1A[2K4f4fb700ef54: Downloading      32B/32B[1B[1A[2K4f4fb700ef54: Download complete [1B[3A[2Kba3557a56b15: Downloading   29.4kB/2.812MB[3B[2A[2K1dace236434b: Downloading  989.5kB/5.117MB[2B[3A[2Kba3557a56b15: Downloading  548.1kB/2.812MB[3B[2A[2K1dace236434b: Downloading  1.502MB/5.117MB[2B[3A[2Kba3557a56b15: Downloading  1.109MB/2.812MB[3B[2A[2K1dace236434b: Downloading  2.145MB/5.117MB[2B[3A[2Kba3557a56b15: Downloading  1.732MB/2.812MB[3B[2A[2K1dace236434b: Downloading    2.8MB/5.117MB[2B[3A[2Kba3557a56b15: Downloading  2.325MB/2.812MB[3B[2A[2K1dace236434b: Downloading  3.378MB/5.117MB[2B[3A[2Kba3557a56b15: Verifying Checksum [3B[3A[2Kba3557a56b15: Download complete [3B[3A[2Kba3557a56b15: Extracting  32.77kB/2.812MB[3B[3A[2Kba3557a56b15: Extracting  2.812MB/2.812MB[3B[3A[2Kba3557a56b15: Pull complete [3B[2A[2K1dace236434b: Downloading  4.352MB/5.117MB[2B[2A[2K1dace236434b: Downloading  5.117MB/5.117MB[2B[2A[2K1dace236434b: Verifying Checksum [2B[2A[2K1dace236434b: Download complete [2B[2A[2K1dace236434b: Extracting  65.54kB/5.117MB[2B[2A[2K1dace236434b: Extracting  5.117MB/5.117MB[2B[2A[2K1dace236434b: Pull complete [2B[1A[2K4f4fb700ef54: Extracting      32B/32B[1B[1A[2K4f4fb700ef54: Extracting      32B/32B[1B[1A[2K4f4fb700ef54: Pull complete [1BDigest: sha256:dd4d367476f86b7d7579d3379fe446ae5dfce25480903fb0966fc2e5257e0543
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:alpine
+docker.io/devopsdockeruh/simple-web-service:alpine
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED        SIZE
+ubuntu                              latest    597ce1600cf4   11 days ago    72.8MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   7 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   7 months ago   15.7MB
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [K]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [K]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [K]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [K]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [K]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [K]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [K]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [K]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [K]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ dockerrun[K[K[K run -it aöl[K[Klp[K[K[Kdev[K[K[Kdevopsdockeruh/simple-web-service:alpine
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C^C
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker run -it devopsdockeruh/simple-web-service:alpine[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C devopsdockeruh/simple-web-service:alpi[1Pne[A]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C devopsdockeruh/simple-web-service:alpin[1Pe[A]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cd devopsdockeruh/simple-web-service:alpine[A]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C
+
+6602114217d0979b9eb307c467bf3d6138d2c800146ba9664f948b75e76011a6
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker exec -it [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdocker ps -a
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED          STATUS                      PORTS     NAMES
+6602114217d0   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   24 seconds ago   Up 23 seconds                         dreamy_germain
+7f0a0ceaccea   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   42 seconds ago   Exited (2) 28 seconds ago             pensive_ellis
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker exec -[K-it pensi[K[K[K[K[K[K[K[Kit dreamy_germain tail -f ./test[K[Kxt.log
+2021-10-12 15:07:29 +0000 UTC
+2021-10-12 15:07:31 +0000 UTC
+2021-10-12 15:07:33 +0000 UTC
+2021-10-12 15:07:35 +0000 UTC
+2021-10-12 15:07:37 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-10-12 15:07:39 +0000 UTC
+2021-10-12 15:07:41 +0000 UTC
+2021-10-12 15:07:43 +0000 UTC
+2021-10-12 15:07:45 +0000 UTC
+2021-10-12 15:07:47 +0000 UTC
+^C]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ exit
+
+Script done on 2021-10-12 18:07:50+03:00 [COMMAND_EXIT_CODE="130"]

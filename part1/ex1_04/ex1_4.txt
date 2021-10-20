@@ -1,0 +1,11 @@
+1. Tried with following command and inputed "helsinki.fi"
+
+docker run -it ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+2. Found out that curl was not installed, so following commands needed to be executed:
+
+docker run -it ubuntu
+apt-get update && apt-get install -y curl 
+sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+3. Then inputting "helsinki.fi" brought the desired result.

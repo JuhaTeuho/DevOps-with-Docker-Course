@@ -1,0 +1,25 @@
+Script started on 2021-10-12 17:50:41+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="52"]
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker rm c4 3a 8e
+c4
+3a
+8e
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker ima[K[K[Kps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
+nginx        latest    87a94228f133   13 hours ago   133MB
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker rmi nginx
+Untagged: nginx:latest
+Untagged: nginx@sha256:b0c17557e2a3a17bcf18498222824312832f69dbf78edab10f08334900bd7fda
+Deleted: sha256:87a94228f133e2da99cb16d653cd1373c5b4e8689956386c1c12b60a20421a02
+Deleted: sha256:55b6972054b24c53054322a52748324df5797eefbb6dc374e41522a91d532dd5
+Deleted: sha256:6b88aa6f4485486bfc779cccfbe4a7a47a502a7cff2cd70be89c59dcd0db12a8
+Deleted: sha256:472c64059965c7b6b1b534ba07374c1d034b17c99acb3cf4534fe78abed41101
+Deleted: sha256:788a5cf1e4599312b5923694f53e556ba0e2eb4a6bbb51958e0ec2b510345a49
+Deleted: sha256:410f31f9ae37c62af85e8f9575c5f4d75542be1739ac1ca5982cf461be0b13bc
+Deleted: sha256:e81bff2725dbc0bf2003db10272fef362e882eb96353055778a66cda430cf81b
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+]0;juha@juha-H310M-H-2-0: ~/MOOC/DevOps-with-Docker-Course/part1[01;32mjuha[00m:[01;34m~/MOOC/DevOps-with-Docker-Course/part1[00m$ exit
+
+Script done on 2021-10-12 17:51:14+03:00 [COMMAND_EXIT_CODE="0"]
