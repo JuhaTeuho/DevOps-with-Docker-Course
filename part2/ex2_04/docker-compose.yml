@@ -1,0 +1,16 @@
+version: '3.5' 
+
+services: 
+
+    frontend: 
+      image: frontend:1.14
+      ports:
+        - 5000:5000
+    backend:
+      image: backend:1.14
+      environment:
+        - REDIS_HOST=redis
+      ports:
+        - 8080:8080
+    redis:
+      image: redis
